@@ -10,11 +10,13 @@ import java.time.Duration;
 
 public class BaseClass extends CommonMethods {
     public static WebDriver driver;
+
+    //    public static void setUp(String url) {
     public static void setUp() {
         ConfigsReader.loadProperties(Constants.CONFIGURATION_FILEPATH); // Replaced hard-coded filePath with Constants
         switch (ConfigsReader.getProperties("browser").toLowerCase()) {
             case "chrome" -> {
-                System.setProperty("webdriver.chrome.driver", Constants.CHROME_DRIVER_PATH);
+                System.setProperty("webdriver.chrome.driver.exe", Constants.CHROME_DRIVER_PATH);
                 driver = new ChromeDriver();
             }
             case "firefox" -> {
@@ -25,6 +27,8 @@ public class BaseClass extends CommonMethods {
         }
 
         driver.get(ConfigsReader.getProperties("url"));
+//        driver.get(url);
+
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(Constants.IMPLICIT_WAIT_TIME));
     }
@@ -36,8 +40,7 @@ public class BaseClass extends CommonMethods {
             e.getStackTrace();
         }
         if (driver != null) {     // This line is optional. We only use it to prevent NullPointerException.
-        driver.quit();
+            driver.quit();
         }
     }
-
 }

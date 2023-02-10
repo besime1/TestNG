@@ -8,6 +8,7 @@ import pages.DashboardPage;
 import pages.LoginPage;
 import utils.BaseClass;
 import utils.ConfigsReader;
+import static utils.PageInitializer.*;
 /**
  *  US 16457: As an Admin User, I should not be able to login to the application using invalid credentials.    <== High Level explanation of the feature.
  */
@@ -18,6 +19,7 @@ public class LoginTest extends BaseClass {
     }
     @AfterMethod
     void quitBrowser() {
+
         tearDown();
     }
     @Test

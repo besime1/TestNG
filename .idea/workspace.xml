@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4b5ada38-e56a-442d-b8e0-50d87deb3ce7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/configs/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configs/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drivers/chromedriver" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestNGProject/com/exelenter/class01/_01_TestNGDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestNGProject/com/exelenter/class01/_02_TestNGDemo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestNGProject/com/exelenter/class01/_03_TestNGDemo3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestNGProject/com/exelenter/class01/_04_TestNGDemo4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestNGProject/com/exelenter/class01/_05_Task01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestNGProject/com/exelenter/class01/_06_HW_TestNG.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestNGProject/com/exelenter/class02/_01_ValidationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestNGProject/com/exelenter/class02/_02_AssertDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestNGProject/com/exelenter/class02/_03_TitleAndLogoValidation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestNGProject/com/exelenter/class02/_04_Task1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestNGProject/com/exelenter/class02/_05_SoftAssertDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestNGProject/com/exelenter/class03/_00_Assert_HW.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestNGProject/com/exelenter/class03/_01_SoftAssertRecap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestNGProject/pages/DashboardPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestNGProject/pages/LoginPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestNGProject/pages/LoginPageWithoutPageFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestNGProject/test/LoginTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestNGProject/utils/BaseClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestNGProject/utils/CommonMethods.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestNGProject/utils/ConfigsReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestNGProject/utils/Constants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/BaseClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/CommonMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/CommonMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/Constants.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2LTkmAATz1XHYmG7TO6tnemrD48" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Demir/Desktop/Selenium/chromedriver_win32&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Demir\Desktop\TestNG\drivers" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG._01_ValidationTests">
+    <configuration name="_01_SoftAssertRecap" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNGProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.exelenter.class03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.exelenter.class03" />
+      <option name="MAIN_CLASS_NAME" value="com.exelenter.class03._01_SoftAssertRecap" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_01_ValidationTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNGProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.exelenter.class02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.exelenter.class02" />
+      <option name="MAIN_CLASS_NAME" value="com.exelenter.class02._01_ValidationTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG._01_ValidationTests" />
+        <item itemvalue="TestNG._01_SoftAssertRecap" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4b5ada38-e56a-442d-b8e0-50d87deb3ce7" name="Changes" comment="" />
+      <created>1675902619228</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1675902619228</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
