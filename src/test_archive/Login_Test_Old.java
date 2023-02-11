@@ -1,18 +1,15 @@
-package test;
+package test_archive;
 
 import org.testng.Assert;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import pages.DashboardPage;
-import pages.LoginPage;
 import utils.BaseClass;
 import utils.ConfigsReader;
-import static utils.PageInitializer.*;
+
 /**
- *  US 16457: As an Admin User, I should not be able to login to the application using invalid credentials.    <== High Level explanation of the feature.
+ * US 16457: As an Admin User, I should not be able to login to the application using invalid credentials.    <== High Level explanation of the feature.
  */
-public class LoginTest extends BaseClass {
+
+public class Login_Test_Old extends BaseClass {
     @Test
     public void validAdminLogin() {
         loginPage.loginToWebsite("username", "password");
@@ -38,7 +35,4 @@ public class LoginTest extends BaseClass {
         click(loginPage.loginBtn);
         Assert.assertEquals(loginPage.loginErrorMessage.getText(), expectedErrorMessage, "Error message is incorrect");
     }
-
-
-
 }

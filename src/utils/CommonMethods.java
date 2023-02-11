@@ -1,5 +1,6 @@
 package utils;
 
+
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -20,8 +21,7 @@ import static utils.BaseClass.driver;
  */
 
 
-public class CommonMethods extends PageInitializer{
-
+public class CommonMethods extends PageInitializer {
     /**
      * Method will switch focus to next window/tab based on the window title/name
      * @param windowTitle String
@@ -292,6 +292,4 @@ public class CommonMethods extends PageInitializer{
             System.out.println("Screenshot is not taken");
         }
     }
-
-
 }

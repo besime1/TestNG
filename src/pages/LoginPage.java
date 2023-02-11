@@ -38,5 +38,4 @@ public class LoginPage {
         sendText(password, ConfigsReader.getProperties(pswd));
         clickButWaitForClickability(loginBtn);
     }
-
 }

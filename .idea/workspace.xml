@@ -2,34 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b5ada38-e56a-442d-b8e0-50d87deb3ce7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestNGProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TestNGProject.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/configs/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configs/configuration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drivers/chromedriver" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TestNGProject/com/exelenter/class01/_01_TestNGDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TestNGProject/com/exelenter/class01/_02_TestNGDemo2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TestNGProject/com/exelenter/class01/_03_TestNGDemo3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TestNGProject/com/exelenter/class01/_04_TestNGDemo4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TestNGProject/com/exelenter/class01/_05_Task01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TestNGProject/com/exelenter/class01/_06_HW_TestNG.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TestNGProject/com/exelenter/class02/_01_ValidationTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TestNGProject/com/exelenter/class02/_02_AssertDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TestNGProject/com/exelenter/class02/_03_TitleAndLogoValidation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TestNGProject/com/exelenter/class02/_04_Task1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TestNGProject/com/exelenter/class02/_05_SoftAssertDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TestNGProject/com/exelenter/class03/_00_Assert_HW.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TestNGProject/com/exelenter/class03/_01_SoftAssertRecap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TestNGProject/pages/DashboardPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TestNGProject/pages/LoginPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TestNGProject/pages/LoginPageWithoutPageFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TestNGProject/test/LoginTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TestNGProject/utils/BaseClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TestNGProject/utils/CommonMethods.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TestNGProject/utils/ConfigsReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TestNGProject/utils/Constants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/AddEmployeePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/AddEmployeePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/DashboardPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/DashboardPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/LoginPageWithoutPageFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/LoginPageWithoutPageFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/PIMPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/PIMPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/AddEmployeeTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/LoginTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/utils/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/BaseClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/utils/CommonMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/CommonMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/ConfigsReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/ConfigsReader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/utils/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/PageInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/PageInitializer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +44,11 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Demir/Desktop/Selenium/chromedriver_win32&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Demir/Desktop/TestNGProject/commons-io-2.11.0/docs/org&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -65,17 +56,17 @@
       <recent name="C:\Users\Demir\Desktop\TestNG\drivers" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG._01_ValidationTests">
-    <configuration name="_01_SoftAssertRecap" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.AddEmployeeTest">
+    <configuration name="AddEmployeeTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNGProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.exelenter.class03.*" />
+          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.exelenter.class03" />
-      <option name="MAIN_CLASS_NAME" value="com.exelenter.class03._01_SoftAssertRecap" />
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.AddEmployeeTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -83,16 +74,68 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_01_ValidationTests" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AddEmployeeTest_Old" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNGProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.exelenter.class02.*" />
+          <option name="PATTERN" value="test_archive.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.exelenter.class02" />
-      <option name="MAIN_CLASS_NAME" value="com.exelenter.class02._01_ValidationTests" />
+      <option name="PACKAGE_NAME" value="test_archive" />
+      <option name="MAIN_CLASS_NAME" value="test_archive.AddEmployeeTest_Old" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AddEmployeeTest_Old" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNGProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test_archive.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test_archive" />
+      <option name="MAIN_CLASS_NAME" value="test_archive.AddEmployeeTest_Old" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AddEmployeeTest.addEmployeeTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNGProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.AddEmployeeTest" />
+      <option name="METHOD_NAME" value="addEmployeeTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNGProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.AddEmployeeTest" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.LoginTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -102,8 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG._01_ValidationTests" />
-        <item itemvalue="TestNG._01_SoftAssertRecap" />
+        <item itemvalue="TestNG.AddEmployeeTest" />
+        <item itemvalue="TestNG.AddEmployeeTest_Old" />
+        <item itemvalue="TestNG.AddEmployeeTest.addEmployeeTest" />
+        <item itemvalue="TestNG.AddEmployeeTest_Old" />
+        <item itemvalue="TestNG.LoginTest" />
       </list>
     </recent_temporary>
   </component>

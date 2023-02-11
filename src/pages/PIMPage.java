@@ -10,8 +10,8 @@ public class PIMPage extends  BaseClass{
     @FindBy(id = "menu_pim_addEmployee")
     public WebElement addEmployee;
     @FindBy(id = "menu_pim_viewEmployeeList")
-
     public WebElement employeeList;
+
     public PIMPage() {
         PageFactory.initElements(driver, this);
     }
@@ -20,5 +20,4 @@ public class PIMPage extends  BaseClass{
         click(PIM);
         click(addEmployee);
     }
-
 }
