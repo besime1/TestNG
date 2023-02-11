@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Smoke Test Suite">
+    <test verbose="2" preserve-order="true" name="Login Test">
+        <classes>
+            <class name="test.LoginTest">
+                <methods>
+                    <exclude name="validAdminLogin"/>
+                    <include name="validUserInvalidPassword"/>
+                    <include name="validUserEmptyPassword"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

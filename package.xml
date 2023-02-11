@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test name="Package Level Test">
+<!--        1st way to test in a package level==>-->
+        <packages>
+            <package name="com.exelenter.class03"/>
+        </packages>
+<!--        2nd way  to test entire package content(all classes included )...>-->
+        <classes>
+            <class name="com.exelenter.class02._01_ValidationTests">
+                <methods>
+                    <include name="titleValidation"/>
+                    <include name="logoValidation"/>
+                    <include name="validLoginTest"/>
+                </methods>
+            </class>
+            <class name="com.exelenter.class02._02_AssertDemo">
+                <methods>
+                    <include name="validLoginTest"/>
+                    <include name="invalidLoginTest"/>
+                </methods>
+            </class>
+            <class name="com.exelenter.class02._03_TitleAndLogoValidation">
+                <methods>
+                    <include name="titleValidation"/>
+                    <include name="logoValidation"/>
+                </methods>
+            </class>
+            <class name="com.exelenter.class02._04_Task1">
+                <methods>
+                    <include name="dashboardLogoValidation"/>
+                </methods>
+            </class>
+            <class name="com.exelenter.class02._05_SoftAssertDemo">
+                <methods>
+                    <include name="softAssertionTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

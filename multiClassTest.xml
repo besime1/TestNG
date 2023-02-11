@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression Suite">
+    <test verbose="2" preserve-order="true" name="Add Employee Test">
+        <classes>
+            <class name="test.AddEmployeeTest">
+                <methods>
+                    <include name="addEmployeeTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true" name="Login Test">
+        <classes>
+            <class name="test.LoginTest">
+                <methods>
+                    <include name="validAdminLogin"/>
+                    <include name="validUserInvalidPassword"/>
+                    <include name="validUserEmptyPassword"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
