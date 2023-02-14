@@ -1,5 +1,6 @@
 package com.exelenter.class04;
 
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import java.util.ArrayList;
@@ -40,6 +41,21 @@ public class _02_DataProviderDemo {
                 {"John Doe", "Sam Lee", 'c', 45}
         };
         System.out.println("user2D=" + Arrays.deepToString(users2D));
+        Arrays.stream(users2D).forEach(a-> System.out.println(Arrays.toString(a)));
+    }
+    @Test(dataProvider = "users")
+    public  void printData2(String  firstName, String lastName,int age) {
+        System.out.println(firstName+""+lastName+""+age);
 
+    }
+    // Manipulating Data
+    @DataProvider
+    public Object[][]users(){
+        Object[][] user = {
+                {"John","Doe",20},
+                {"Sam","Lee",35},
+                {"Jack","Sparrow",40}
+        };
+        return  user;
     }
 }

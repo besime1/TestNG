@@ -2,22 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b5ada38-e56a-442d-b8e0-50d87deb3ce7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/addEmployee.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/bullet_point.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/failed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/jquery-3.4.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/navigator-bullet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/passed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/skipped.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/testng-failed.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/testng-reports.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/testng-reports.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/testng-results.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/testng.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestNGProject/com/exelenter/class04/_02_DataProviderDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestNGProject/com/exelenter/class04/_02_DataProviderDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/exelenter/class04/_02_DataProviderDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/exelenter/class04/_02_DataProviderDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +44,7 @@
       <recent name="C:\Users\Demir\Desktop\TestNG\drivers" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG._02_DataProviderDemo">
+  <component name="RunManager" selected="TestNG._04_DataProviderDemo3">
     <configuration name="AddEmployeeTest_Old" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNGProject" />
       <extension name="coverage">
@@ -78,16 +65,6 @@
     <configuration name="C:/Users/Demir/Desktop/TestNG/parallel.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNGProject" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/parallel.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C:/Users/Demir/Desktop/TestNG/regression.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestNGProject" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/regression.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -132,13 +109,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="_04_DataProviderDemo3" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNGProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.exelenter.class04.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.exelenter.class04" />
+      <option name="MAIN_CLASS_NAME" value="com.exelenter.class04._04_DataProviderDemo3" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG._04_DataProviderDemo3" />
         <item itemvalue="TestNG._02_DataProviderDemo" />
         <item itemvalue="TestNG.C:/Users/Demir/Desktop/TestNG/parallel.xml" />
         <item itemvalue="TestNG.C:/Users/Demir/Desktop/TestNG/testng.xml" />
         <item itemvalue="TestNG.C:/Users/Demir/Desktop/TestNG/smoke.xml" />
-        <item itemvalue="TestNG.C:/Users/Demir/Desktop/TestNG/regression.xml" />
       </list>
     </recent_temporary>
   </component>
