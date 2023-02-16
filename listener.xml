@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Listener Suite">
+    <listeners>
+        <listener class-name="utils.Listener"/>
+    </listeners>
+    <test name="Listener Test">
+        <classes>
+            <class name="com.exelenter.class05._01_ListenerDemo">
+                <methods>
+                    <include name="test1"/>
+                    <include name="test2"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

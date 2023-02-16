@@ -6,7 +6,7 @@ import utils.BaseClass;
 
 public class _03_DataProviderDemo2 extends BaseClass {
     // Instead of repeating ourselves with many test methods (login1, login2, login3, etc.) instead we can use DataProvider
-    @Test
+    @Test(dependsOnMethods ="loginTest2")
     public void loginTest1() {
         sendText(loginPage.username, "Admin");
         sendText(loginPage.password, "Exelent2022Sdet!");
@@ -17,7 +17,7 @@ public class _03_DataProviderDemo2 extends BaseClass {
 
     @Test
     public void loginTest2() {
-        sendText(loginPage.username, "johndoe");
+        sendText(loginPage.username, "johndoe"); // Stale
         sendText(loginPage.password, "k#G886@H");
         click(loginPage.loginBtn);
         boolean welcomeDisplayed = dashboardPage.welcome.isDisplayed();
