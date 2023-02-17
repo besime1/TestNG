@@ -14,22 +14,20 @@ public class AddEmployeePage extends BaseClass {
     public WebElement employeeId;
     @FindBy(id = "photofile")
     public WebElement uploadPhoto;
+    @FindBy(id = "chkLogin")
+    public WebElement createLoginDetailsCheckbox;
 
-    @FindBy (id="chkLogin")
-    public  WebElement createLoginDetailsCheckbox;
-
-    @FindBy(id="user_name")
+    @FindBy(id = "user_name")
     public WebElement username;
 
-    @FindBy(id="user_password")
+    @FindBy(id = "user_password")
     public WebElement password;
 
-    @FindBy(id="re_password")
-    public  WebElement confirmPassword;
+    @FindBy(id = "re_password")
+    public WebElement confirmPassword;
 
     @FindBy(id = "btnSave")
     public WebElement saveButton;
-
 
     public AddEmployeePage() {
         PageFactory.initElements(driver, this);
@@ -41,5 +39,6 @@ public class AddEmployeePage extends BaseClass {
         sendText(uploadPhoto, ConfigsReader.getProperties(filePath));
         click(saveButton);
     }
+
 
 }

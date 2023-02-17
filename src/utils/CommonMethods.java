@@ -1,6 +1,5 @@
 package utils;
 
-
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -23,6 +22,7 @@ import static utils.BaseClass.driver;
 
 
 public class CommonMethods extends PageInitializer {
+
     /**
      * Method will switch focus to next window/tab based on the window title/name
      * @param windowTitle String
@@ -276,13 +276,16 @@ public class CommonMethods extends PageInitializer {
 
     /**
      * Method will scroll up based on given pixel
-     *
      * @param pixel int
      */
     public static void scrollUp(int pixel) {
         jsExecutor().executeScript("window.scrollBy(0,-" + pixel + ")"); // "window.scrollBy(0,-500)"
     }
 
+    /**
+     * Method will take a screenshot when called. Extension defined as .png (You can change to .jpeg from CommonMethods when needed)
+     * @param fileName String as screenshot name
+     */
     public static void takeScreenshot(String fileName) {
         TakesScreenshot takesScreenshot = (TakesScreenshot) driver;
         File sourceFile = takesScreenshot.getScreenshotAs(OutputType.FILE);
@@ -293,6 +296,7 @@ public class CommonMethods extends PageInitializer {
             System.out.println("Screenshot is not taken");
         }
     }
+
     public static String randomStrongPassWord(){
         String passWord = "";
         Random rnd = new Random();

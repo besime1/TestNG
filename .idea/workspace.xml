@@ -3,10 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="4b5ada38-e56a-442d-b8e0-50d87deb3ce7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TestNGProject/com/exelenter/class04/_03_DataProviderDemo2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestNGProject/com/exelenter/class04/_03_DataProviderDemo2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TestNGProject/pages/AddEmployeePage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TestNGProject/utils/CommonMethods.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/exelenter/class04/_03_DataProviderDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/exelenter/class04/_03_DataProviderDemo2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestNGProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TestNGProject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestNGProject/com/exelenter/class05/_01_ListenerDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestNGProject/com/exelenter/class05/_01_ListenerDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/exelenter/class05/_01_ListenerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/exelenter/class05/_01_ListenerDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/exelenter/class05/_HW__AddEmployee.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/AddEmployeePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/AddEmployeePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/utils/CommonMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/CommonMethods.java" afterDir="false" />
     </list>
@@ -36,7 +36,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Demir/Downloads/commons-io-2.11.0-bin/commons-io-2.11.0/commons-io-2.11.0-javadoc.jar",
+    "last_opened_file_path": "C:/Users/Demir/Downloads/poi-bin-5.2.3/poi-scratchpad-5.2.3.jar",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -48,7 +48,24 @@
       <recent name="C:\Users\Demir\Desktop\TestNG\drivers" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG._HW__AddEmployee">
+  <component name="RunManager" selected="TestNG.AddEmployee1">
+    <configuration name="AddEmployee1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNGProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.exelenter.class05.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.exelenter.class05" />
+      <option name="MAIN_CLASS_NAME" value="com.exelenter.class05.AddEmployee1" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AddEmployeeTest_Old" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNGProject" />
       <extension name="coverage">
@@ -76,40 +93,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_01_ListenerDemo" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestNGProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.exelenter.class05.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.exelenter.class05" />
-      <option name="MAIN_CLASS_NAME" value="com.exelenter.class05._01_ListenerDemo" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_04_DataProviderDemo3" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestNGProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.exelenter.class04.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.exelenter.class04" />
-      <option name="MAIN_CLASS_NAME" value="com.exelenter.class04._04_DataProviderDemo3" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="_05_AddEmployee" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNGProject" />
       <extension name="coverage">
@@ -120,6 +103,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.exelenter.class04" />
       <option name="MAIN_CLASS_NAME" value="com.exelenter.class04._05_AddEmployee" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_HW_AddEmployee" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNGProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.exelenter.class05.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.exelenter.class05" />
+      <option name="MAIN_CLASS_NAME" value="com.exelenter.class05._HW_AddEmployee" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -146,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.AddEmployee1" />
+        <item itemvalue="TestNG._HW_AddEmployee1" />
         <item itemvalue="TestNG._HW__AddEmployee" />
-        <item itemvalue="TestNG.C:/Users/Demir/Desktop/TestNG/listener.xml" />
-        <item itemvalue="TestNG._01_ListenerDemo" />
-        <item itemvalue="TestNG._04_DataProviderDemo3" />
         <item itemvalue="TestNG._05_AddEmployee" />
+        <item itemvalue="TestNG.C:/Users/Demir/Desktop/TestNG/listener.xml" />
       </list>
     </recent_temporary>
   </component>
