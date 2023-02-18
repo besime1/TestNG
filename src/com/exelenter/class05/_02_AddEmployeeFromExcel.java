@@ -22,8 +22,8 @@ import static org.testng.Assert.assertEquals;
     BONUS: Specify a group name for this test case, and execute from the XML file.
  */
 
-public class _HW_AddEmployee extends BaseClass {
-    @Test(dataProvider = "readFromExcel")
+public class _02_AddEmployeeFromExcel extends BaseClass{
+    @Test(dataProvider = "readFromExcel", groups = {"smoke","regression", "excel"})
     public void addEmployeeTest(String firstName, String lastName, String userName, String password) {
         loginPage.loginToWebsite("username", "password");
         wait(1);
@@ -73,19 +73,19 @@ public class _HW_AddEmployee extends BaseClass {
     @DataProvider
     public Object[][] addEmployees() {
         return new Object[][]{
-                {"Sophia", "Patel", "sophiapatel123456", randomStrongPassWord()},
-                {"Jackson", "Chen", "jacksonchen123456", randomStrongPassWord()},
-                {"Isabella", "Rodriguez", "irodriguez", randomStrongPassWord()},
-                {"Caleb", "Thomson", "calebthomson123456", randomStrongPassWord()},
-                {"Zoe", "Kim", "zoekim123456", randomStrongPassWord()}
+                {"Sophia", "Patel", "sophiapatel1234", randomStrongPassWord()},
+                {"Jackson", "Chen", "jacksonchen1234", randomStrongPassWord()},
+                {"Isabella", "Rodriguez", "irodriguez", randomStrongPassWord()},   // We are failing this on purpose, to see if Try-Catch works.
+                {"Caleb", "Thomson", "calebthomson1234", randomStrongPassWord()},
+                {"Zoe", "Kim", "zoekim1234", randomStrongPassWord()}
         };
     }
 
     // 2nd way: How to read data from Excel
-    @DataProvider(name="readFromExcel")
-    public  Object[][] getDataFromExcel(){
-        String absolutePath= ExcelUtility.projectPath+ "/testData/ExelenterEmployeeList.xlsx";
-        return ExcelUtility.readFromExcel(absolutePath,"Employee");
-
+    @DataProvider(name = "readFromExcel")
+    public Object[][] getDataFromExcel() {
+        String absolutePath = ExcelUtility.projectPath +"test-output/testData/ExelenterEmployeeList.xlsx";  //Don't forget slash in front of testData
+        return ExcelUtility.readFromExcel(absolutePath, "Employee");
     }
+
 }
