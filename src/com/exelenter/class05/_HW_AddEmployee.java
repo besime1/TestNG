@@ -2,6 +2,7 @@ package com.exelenter.class05;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import utils.BaseClass;
+import utils.ExcelUtility;
 
 import static org.testng.Assert.assertEquals;
 
@@ -22,7 +23,7 @@ import static org.testng.Assert.assertEquals;
  */
 
 public class _HW_AddEmployee extends BaseClass {
-    @Test(dataProvider = "addEmployees")
+    @Test(dataProvider = "readFromExcel")
     public void addEmployeeTest(String firstName, String lastName, String userName, String password) {
         loginPage.loginToWebsite("username", "password");
         wait(1);
@@ -81,6 +82,10 @@ public class _HW_AddEmployee extends BaseClass {
     }
 
     // 2nd way: How to read data from Excel
+    @DataProvider(name="readFromExcel")
+    public  Object[][] getDataFromExcel(){
+        String absolutePath= ExcelUtility.projectPath+ "/testData/ExelenterEmployeeList.xlsx";
+        return ExcelUtility.readFromExcel(absolutePath,"Employee");
 
-
+    }
 }

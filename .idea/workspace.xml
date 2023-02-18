@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b5ada38-e56a-442d-b8e0-50d87deb3ce7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestNGProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TestNGProject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TestNGProject/com/exelenter/class05/_01_ListenerDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestNGProject/com/exelenter/class05/_01_ListenerDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/exelenter/class05/_01_ListenerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/exelenter/class05/_01_ListenerDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/exelenter/class05/_HW__AddEmployee.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/AddEmployeePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/AddEmployeePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/CommonMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/CommonMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/exelenter/class05/_HW_AddEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/exelenter/class05/_HW_AddEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/ExcelUtility1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/ExcelUtility.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,27 +40,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Demir\Desktop\TestNG\test-output\testData" />
       <recent name="C:\Users\Demir\Desktop\TestNG\drivers" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.AddEmployee1">
-    <configuration name="AddEmployee1" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestNGProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.exelenter.class05.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.exelenter.class05" />
-      <option name="MAIN_CLASS_NAME" value="com.exelenter.class05.AddEmployee1" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG._HW_AddEmployee.addEmployeeTest">
     <configuration name="AddEmployeeTest_Old" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNGProject" />
       <extension name="coverage">
@@ -77,16 +56,6 @@
       <option name="PACKAGE_NAME" value="test_archive" />
       <option name="MAIN_CLASS_NAME" value="test_archive.AddEmployeeTest_Old" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C:/Users/Demir/Desktop/TestNG/listener.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestNGProject" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/listener.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -127,6 +96,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="_HW_AddEmployee" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNGProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.exelenter.class05.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.exelenter.class05" />
+      <option name="MAIN_CLASS_NAME" value="com.exelenter.class05._HW_AddEmployee" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_HW_AddEmployee.addEmployeeTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNGProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.exelenter.class05.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.exelenter.class05" />
+      <option name="MAIN_CLASS_NAME" value="com.exelenter.class05._HW_AddEmployee" />
+      <option name="METHOD_NAME" value="addEmployeeTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="_HW__AddEmployee" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNGProject" />
       <extension name="coverage">
@@ -146,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.AddEmployee1" />
+        <item itemvalue="TestNG._HW_AddEmployee.addEmployeeTest" />
+        <item itemvalue="TestNG._HW_AddEmployee" />
         <item itemvalue="TestNG._HW_AddEmployee1" />
         <item itemvalue="TestNG._HW__AddEmployee" />
         <item itemvalue="TestNG._05_AddEmployee" />
-        <item itemvalue="TestNG.C:/Users/Demir/Desktop/TestNG/listener.xml" />
       </list>
     </recent_temporary>
   </component>
