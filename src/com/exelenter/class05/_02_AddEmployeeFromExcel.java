@@ -1,4 +1,5 @@
 package com.exelenter.class05;
+
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import utils.BaseClass;
@@ -21,8 +22,8 @@ import static org.testng.Assert.assertEquals;
          7. Close the browser
     BONUS: Specify a group name for this test case, and execute from the XML file.
  */
+public class _02_AddEmployeeFromExcel extends BaseClass {
 
-public class _02_AddEmployeeFromExcel extends BaseClass{
     @Test(dataProvider = "readFromExcel", groups = {"smoke","regression", "excel"})
     public void addEmployeeTest(String firstName, String lastName, String userName, String password) {
         loginPage.loginToWebsite("username", "password");
@@ -84,7 +85,7 @@ public class _02_AddEmployeeFromExcel extends BaseClass{
     // 2nd way: How to read data from Excel
     @DataProvider(name = "readFromExcel")
     public Object[][] getDataFromExcel() {
-        String absolutePath = ExcelUtility.projectPath +"test-output/testData/ExelenterEmployeeList.xlsx";  //Don't forget slash in front of testData
+        String absolutePath = ExcelUtility.projectPath + "/testData/ExelenterEmployeeList.xlsx";  //Don't forget slash in front of testData
         return ExcelUtility.readFromExcel(absolutePath, "Employee");
     }
 

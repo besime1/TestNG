@@ -8,8 +8,7 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 
-
-
+// We need to import Apache POI libraries for this to work.
 public class ExcelUtility {
     // Order: 1. filePath, 2.Workbook, 3.Sheet, 4.Rows & Cols, 5.Cell (For each step we will create a method).
     public static String projectPath = System.getProperty("user.dir");

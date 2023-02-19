@@ -872,5 +872,7 @@
         <jarDirectory url="file://$USER_HOME$/Downloads/poi-bin-5.2.3" recursive="false" />
       </library>
     </orderEntry>
+    <orderEntry type="library" name="poi-5.2.3" level="project" />
+    <orderEntry type="library" name="batik-anim-1.14" level="project" />
   </component>
 </module>

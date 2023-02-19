@@ -3,8 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="4b5ada38-e56a-442d-b8e0-50d87deb3ce7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TestNGProject/utils/BaseClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestNGProject/utils/BaseClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/exelenter/class05/_HW_AddEmployee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestNGProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TestNGProject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestNGProject/com/exelenter/class05/_02_AddEmployeeFromExcel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestNGProject/com/exelenter/class05/_02_AddEmployeeFromExcel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestNGProject/utils/ExcelUtility.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestNGProject/utils/ExcelUtility.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/exelenter/class05/_02_AddEmployeeFromExcel.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/utils/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/BaseClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/utils/ExcelUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/ExcelUtility.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/testData/ExelenterEmployeeList.xlsx" beforeDir="false" />
@@ -35,7 +37,7 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Demir/Downloads/poi-bin-5.2.3/poi-scratchpad-5.2.3.jar&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Demir/Downloads/poi-bin-5.2.3/ooxml-lib/xmlbeans-5.1.1.jar&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
@@ -44,21 +46,32 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Demir\Desktop\TestNG\testData" />
       <recent name="C:\Users\Demir\Desktop\TestNG\test-output\testData" />
       <recent name="C:\Users\Demir\Desktop\TestNG\drivers" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG._02_AddEmployeeFromExcel.addEmployeeTest">
-    <configuration name="AddEmployeeTest_Old" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.C:/Users/Demir/Desktop/TestNG/excel.xml">
+    <configuration name="C:/Users/Demir/Desktop/TestNG/excel.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNGProject" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/excel.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_02_AddEmployeeFromExcel" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNGProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test_archive.*" />
+          <option name="PATTERN" value="com.exelenter.class05.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="test_archive" />
-      <option name="MAIN_CLASS_NAME" value="test_archive.AddEmployeeTest_Old" />
+      <option name="PACKAGE_NAME" value="com.exelenter.class05" />
+      <option name="MAIN_CLASS_NAME" value="com.exelenter.class05._02_AddEmployeeFromExcel" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -84,17 +97,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_05_AddEmployee" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="_02_AddEmployeeFromExcel.addEmployeeTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNGProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.exelenter.class04.*" />
+          <option name="PATTERN" value="com.exelenter.class05.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.exelenter.class04" />
-      <option name="MAIN_CLASS_NAME" value="com.exelenter.class04._05_AddEmployee" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="com.exelenter.class05" />
+      <option name="MAIN_CLASS_NAME" value="com.exelenter.class05._02_AddEmployeeFromExcel" />
+      <option name="METHOD_NAME" value="addEmployeeTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -153,30 +167,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_HW__AddEmployee" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestNGProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.exelenter.class05.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.exelenter.class05" />
-      <option name="MAIN_CLASS_NAME" value="com.exelenter.class05._HW__AddEmployee" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/Demir/Desktop/TestNG/excel.xml" />
+        <item itemvalue="TestNG._02_AddEmployeeFromExcel" />
+        <item itemvalue="TestNG._02_AddEmployeeFromExcel.addEmployeeTest" />
         <item itemvalue="TestNG._02_AddEmployeeFromExcel.addEmployeeTest" />
         <item itemvalue="TestNG._HW_AddEmployeeFromExcel.addEmployeeTest" />
-        <item itemvalue="TestNG._HW_AddEmployeeFromExcel" />
-        <item itemvalue="TestNG._HW_AddEmployeeFromExcel" />
-        <item itemvalue="TestNG._HW__AddEmployee" />
       </list>
     </recent_temporary>
   </component>
@@ -201,5 +198,15 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
