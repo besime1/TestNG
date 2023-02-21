@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="4b5ada38-e56a-442d-b8e0-50d87deb3ce7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/exelenter/class05/_02_AddEmployeeFromExcel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/exelenter/class05/_02_AddEmployeeFromExcel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/exelenter/class05/_03_HW_LoginTestNegative.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/exelenter/class05/_03_HW_LoginTestNegative.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/ExcelUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/ExcelUtility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testData/ExelenterEmployeeList.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/testData/ExelenterEmployeeList.xlsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
