@@ -3,13 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4b5ada38-e56a-442d-b8e0-50d87deb3ce7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestNGProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TestNGProject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TestNGProject/com/exelenter/class05/_02_AddEmployeeFromExcel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestNGProject/com/exelenter/class05/_02_AddEmployeeFromExcel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TestNGProject/utils/ExcelUtility.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestNGProject/utils/ExcelUtility.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/exelenter/class05/_02_AddEmployeeFromExcel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/BaseClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/ExcelUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/ExcelUtility.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/testData/ExelenterEmployeeList.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/exelenter/class05/_02_AddEmployeeFromExcel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/exelenter/class05/_02_AddEmployeeFromExcel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +45,7 @@
       <recent name="C:\Users\Demir\Desktop\TestNG\drivers" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/Demir/Desktop/TestNG/excel.xml">
+  <component name="RunManager" selected="TestNG._03_HW_LoginTestNegative.userLogin">
     <configuration name="C:/Users/Demir/Desktop/TestNG/excel.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNGProject" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/excel.xml" />
@@ -115,7 +109,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_HW_AddEmployeeFromExcel" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="_03_HW_LoginTestNegative.userLogin" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNGProject" />
       <extension name="coverage">
         <pattern>
@@ -124,8 +118,9 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.exelenter.class05" />
-      <option name="MAIN_CLASS_NAME" value="com.exelenter.class05._HW_AddEmployeeFromExcel" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="com.exelenter.class05._03_HW_LoginTestNegative" />
+      <option name="METHOD_NAME" value="userLogin" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -169,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG._03_HW_LoginTestNegative.userLogin" />
         <item itemvalue="TestNG.C:/Users/Demir/Desktop/TestNG/excel.xml" />
         <item itemvalue="TestNG._02_AddEmployeeFromExcel" />
         <item itemvalue="TestNG._02_AddEmployeeFromExcel.addEmployeeTest" />
         <item itemvalue="TestNG._02_AddEmployeeFromExcel.addEmployeeTest" />
-        <item itemvalue="TestNG._HW_AddEmployeeFromExcel.addEmployeeTest" />
       </list>
     </recent_temporary>
   </component>
